@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS results;
+CREATE TABLE results (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    satisfaction INTEGER NOT NULL,
+    feedback TEXT NOT NULL
+);
